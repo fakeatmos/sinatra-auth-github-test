@@ -82,7 +82,7 @@ __END__
 <% if authenticated? %>
   <h2>
     <img src='https://gravatar.com/avatar/<%= env['warden'].user.gravatar_id %>.png?r=PG&s=50' />
-    Welcome <%= github_user.name %>
+    Sup <%= github_user.name %>
   </h2>
 <% else %>
   <h2>Welcome stranger</h2>
