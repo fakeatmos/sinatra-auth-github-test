@@ -85,7 +85,7 @@ __END__
     Sup <%= github_user.name %>
   </h2>
 <% else %>
-  <h2>Hullo there, garen!</h2>
+  <h2>Hullo there, ryan!</h2>
 <% end %>
 
 @@ profile
